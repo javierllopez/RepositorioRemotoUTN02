@@ -1,0 +1,32 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 36px;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+#imagen {
+    align-items: center;
+}
+.caja {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.itemCaja
+{
+    border: solid 1px;
+    margin: 5px;
+    padding: 5px;
+    background-color: cadetblue;
+}

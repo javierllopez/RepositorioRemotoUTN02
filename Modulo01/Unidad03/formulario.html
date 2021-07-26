@@ -1,0 +1,71 @@
+<!DOCdTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario para completar</title>
+    </head>
+    <body>
+        <h2>Completar datos de contacto</h2>
+        <form action= "" method="">
+            <p>
+                <label>Nombre</label>
+                <input type="text" name="nombre" />
+            </p>
+            <p>
+                <label>Apellido</label>
+                <input type="text" name="apellido" />
+            </p>
+            <p>
+                <label>Sexo</label>
+                <ul>
+                    <li>
+                        <input type="radio" name="sexo" value="masculino" />
+                        <label>Masculino</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="sexo" value="femenino" />
+                        <label>Femenino</label>
+                    </li>
+
+                </ul>
+            </p>
+            <p>
+                <label>Intereses</label>
+                <ul>
+                    <li>
+                        <input type="checkbox" name="intereses[]" value="leer" id="leer" />
+                        <label>Leer</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="intereses[]" value="viajar" id="viajar" />
+                        <label>Viajar</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="intereses[]" value="películas" id="películas" />
+                        <label>Películas</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="intereses[]" value="deportes" id="deportes" />
+                        <label>Deportes</label>
+                    </li>
+                </ul>
+            </p>
+            <p>
+                <label>Estudios</label>
+                <select name = "Estudios">
+                    <option value="primario">Primario</option>
+                    <option value="secundario">Secundario</option>
+                    <option value="terciario">Terciario</option>
+                    <option value="universitario">Universitario</option>
+                </select>
+            </p>
+            <p>
+                <label>Comentarios</label>
+                <textarea name="comentarios"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Enviar" />
+                <input type="reset" value="Borrar" />
+            </p>
+        </form>
+    </body>
