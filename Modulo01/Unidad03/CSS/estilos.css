@@ -16,12 +16,16 @@ li {
     font-size: 14px;
 }
 #imagen {
-    align-items: center;
+
+    align-content: center;
 }
 .caja {
+    margin: 5px;
     display: flex;
     flex-direction: row;
     justify-content:space-around;
+    border: solid 1px;
+    background-color: lightseagreen;
 }
 .itemCaja
 {
@@ -36,6 +40,9 @@ li {
     padding: 10px;
 }
 #pie {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
     border: solid 1px;
     background-color: darkorange;
     padding: 10px;
