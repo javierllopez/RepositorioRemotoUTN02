@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Java 02 - Bucles</title>
+</head>
+<body>
+    <script>
+        //Inicializo el vector y las variables
+        var vector = [0,0,0,0,0];
+        var i = 0;
+        var mayor = 0;
+        //Ingreso los valores a comparar
+        for(i=0;i<=4;i++)
+        {
+            vector[i] = parseInt(prompt("Ingrese el "+(i+1)+"° número:",""));
+        }
+        //Inicializo nuevamente la variable i para entrar en el while
+        i = 0;
+        //comparo los valores del vector con la variable mayor, si es mayor se reemplaza
+        while (i<=4)
+        {
+            if (vector[i]> mayor) mayor = vector[i];
+            i++;
+        }
+        //Muestro el mayor número
+        document.write("El mayor de los números ingresados es "+mayor);
+
+    </script>
+</body>
+</html>
