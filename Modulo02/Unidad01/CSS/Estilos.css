@@ -1,0 +1,43 @@
+.contenedor {
+    display: flex;
+}
+.cuadradoAzul {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+    background-color: blue;
+    box-shadow: 10px 10px 5px 0px black;
+
+
+}
+.cuadradoRojo {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: red;
+    text-align: center;
+    box-shadow: 10px 10px 5px 0px black;
+
+}
+.cuadradoAmarillo {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+    background-color: yellow;
+    box-shadow: 10px 10px 5px 0px black;
+ 
+}
+#MiFondo {
+    background-color: white;
+}
