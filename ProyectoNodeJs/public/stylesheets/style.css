@@ -1,8 +1,82 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+footer{
+    background-color: #aaa;
 }
+h1,h2 {
+    font-family: 'Sigmar One', cursive;
+}
+.hero {
+    background: url(/public/images/ImagenPrincial.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    min-height: 600px;
+    color: black;
+}
+.lista-novedades {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.lista-novedades li {
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.25);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.25);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.25);
+border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+background-color: rgba(0,0,0,0.25);
+color: white;
+}
+.lista-novedades li:hover {
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+background-color: rgba(0,0,0,0.75);
+color: white;
 
-a {
-  color: #00B7FF;
+}
+.lista-novedades a {
+    color: white;
+}
+.MiCarrusel {
+    filter: opacity(90%);
+-webkit-filter: opacity(90%);
+-moz-filter: opacity(90%);
+}
+.MiCarrusel img {
+    height: 600px;
+}
+.Boton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: -1;
+}
+.BotonActivado {
+    z-index: 10;
+}
+.FondoHistoria {
+    background-color: white;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+height: 400px;
+overflow:auto
+}
+.FondoContacto {
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+height: 400px;
+overflow:auto
 }
