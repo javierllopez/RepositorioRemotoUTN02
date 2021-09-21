@@ -4,8 +4,15 @@ footer{
 h1,h2 {
     font-family: 'Sigmar One', cursive;
 }
+.barra {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: max-content;
+    z-index: 11;
+}
 .hero {
-    background: url(/public/images/ImagenPrincial.jpg) no-repeat;
+    background: url(../images/ImagenPrincial.jpg) no-repeat;
     background-size: cover;
     height: 100vh;
     min-height: 600px;

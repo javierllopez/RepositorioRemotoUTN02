@@ -1,3 +1,40 @@
-<h1>{{title}}</h1>
-<p>Aquí nos dejas tus comentarios</p>
-<p><a href="/">Volver</a></p>
+<div class="container-fluid">
+    <div class="row align-items-center hero">
+        <div class="col-lg-8 offset-lg-2">
+            <div class="container-fluid FondoContacto">
+                <h1>Contatate con nosotros</h1>
+                <form action="contacto" method="POST">
+                    <div class="row align-items-center">
+                        <div class="col-6">
+                            <label for="frmNombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="frmNombre" name="nombre"
+                                placeholder="Escribí tu nombre acá">
+                        </div>
+                        <div class="col-6">
+                            <label for="frmApellido" class="form-label">Apellido</label>
+                            <input type="text" class="form-control" id="frmApellido" name="apellido"
+                                placeholder="Escribí tu apellido acá">
+                        </div>
+                        <div class="col-6">
+                            <label for="frmCorreo" class="form-label">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="frmCorreo" name="correo"
+                                placeholder="correo@servidor.com">
+                        </div>
+                        <div class="col-6">
+                            <label for="frmTelefono" class="form-label">Teléfono</label>
+                            <input type="text" class="form-control" id="frmTelefono" name="telefono"
+                                placeholder="Escribí tu teléfono de línea o celular acá">
+                        </div>
+                        <div class="col-12">
+                            <label for="frmComentarios" class="form-label">Dejanos tus comentarios acá</label>
+                            <textarea class="form-control" id="frmComentarios" name="comentarios" rows="3"></textarea>
+                            <button class="btn btn-primary" style="margin-top: 10px" type="submit">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+                <p>{{message}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
